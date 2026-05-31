@@ -449,7 +449,7 @@
     <string name="restored_previous_purchases">Korábbi vásárlások visszaállítása.</string>
     <string name="restoring_purchase">A vásárlás visszaállítása ...</string>
     <string name="billing_error">Hiba történt a kommunikáció közben a Google Play Fizetéssel</string>
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">Cached</string>
     <string name="retro_music_pro">Retro Music Pro</string>
     <string name="ringtone_summary">Az alkalmazásnak engedélyre van szüksége a készülék beállításaihoz a zeneszám csengőhangként való beállításához</string>
     <string name="ringtone_title">Csengőhang (Opcionális)</string>

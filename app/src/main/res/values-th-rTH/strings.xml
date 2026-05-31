@@ -447,7 +447,7 @@
     <string name="restored_previous_purchases">กู้คืนการสั่งซื้อสำเร็จ</string>
     <string name="restoring_purchase">กำลังดำเนินการกู้คืนการสั่งซื้อ</string>
     <string name="billing_error">An error occurred while communicating with Google Play Billing</string>
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">Cached</string>
     <string name="retro_music_pro">Retro Music Pro</string>
     <string name="ringtone_summary">ต้องการสิทธิ์เพื่อตั้งค่าริงโทน</string>
     <string name="ringtone_title">ริงโทน (Optional)</string>

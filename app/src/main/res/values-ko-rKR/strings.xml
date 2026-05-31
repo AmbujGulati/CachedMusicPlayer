@@ -447,7 +447,7 @@
     <string name="restored_previous_purchases">이전 구매 내역을 복원했습니다.</string>
     <string name="restoring_purchase">구매 복원 중...</string>
     <string name="billing_error">An error occurred while communicating with Google Play Billing</string>
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">Cached</string>
     <string name="retro_music_pro">RetroMusic Pro 구매</string>
     <string name="ringtone_summary">The app needs permission to access your device settings in order to set music as Ringtone</string>
     <string name="ringtone_title">Ringtone (Optional)</string>

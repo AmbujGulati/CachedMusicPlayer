@@ -343,7 +343,7 @@
     <string name="restored_previous_purchase_please_restart">Aurreko erosketa leheneratua. Mesedez aplikazioa berrabiarazi ezaugarri guztiak erabiltzeko</string>
     <string name="restored_previous_purchases">Aurreko erosketa leheneratua</string>
     <string name="restoring_purchase">Erosketa leheneratzen...</string>
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">Cached</string>
     <string name="retro_music_pro">Retro Music Pro</string>
     <string name="saf_delete_failed">File delete failed: %s</string>
     <!-- SAF -->

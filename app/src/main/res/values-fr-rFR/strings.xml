@@ -449,7 +449,7 @@
     <string name="restored_previous_purchases">Achats précédents restaurés.</string>
     <string name="restoring_purchase">Restauration de l\'achat…</string>
     <string name="billing_error">Une erreur s\'est produite lors de la communication avec Google Play Billing</string>
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">Cached</string>
     <string name="retro_music_pro">Retro Music Pro</string>
     <string name="ringtone_summary">L\'application a besoin d\'accéder au stockage de votre appareil pour configurer un morceau comme sonnerie</string>
     <string name="ringtone_title">Sonnerie (facultatif)</string>

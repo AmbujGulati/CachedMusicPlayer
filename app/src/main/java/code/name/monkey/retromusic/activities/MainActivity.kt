@@ -37,6 +37,7 @@ import code.name.monkey.retromusic.util.logE
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import org.koin.android.ext.android.get
+import androidx.navigation.ui.NavigationUI
 
 class MainActivity : AbsCastActivity() {
     companion object {
@@ -92,7 +93,7 @@ class MainActivity : AbsCastActivity() {
                 currentFragment(R.id.fragment_container)?.enterTransition = null
             }
             when (destination.id) {
-                R.id.action_home, R.id.action_song, R.id.action_album, R.id.action_artist, R.id.action_folder, R.id.action_playlist, R.id.action_genre, R.id.action_search -> {
+                R.id.action_home, R.id.action_song, R.id.action_album, R.id.action_artist, R.id.action_folder, R.id.action_playlist, R.id.action_genre, R.id.action_search, R.id.action_spotify -> {
                     // Save the last tab
                     if (PreferenceUtil.rememberLastTab) {
                         saveTab(destination.id)
@@ -112,6 +113,7 @@ class MainActivity : AbsCastActivity() {
     }
 
     private fun saveTab(id: Int) {
+        if (id == R.id.action_spotify) return  // not a Retro category tab — don't persist
         if (PreferenceUtil.libraryCategory.firstOrNull { it.category.id == id }?.visible == true) {
             PreferenceUtil.lastTab = id
         }

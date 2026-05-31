@@ -42,7 +42,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import code.name.monkey.retromusic.BuildConfig;
 import code.name.monkey.retromusic.R;
 
 /**

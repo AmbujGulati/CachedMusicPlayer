@@ -9,19 +9,14 @@ package code.name.monkey.retromusic.helper
  * Medium = https://medium.com/@pinankhpatel
  * Email = pinankhpatel@gmail.com
  */
-import android.content.Intent
 import android.content.res.Configuration
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
-import android.widget.Toast
-import androidx.core.os.postDelayed
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.observe
 import code.name.monkey.retromusic.R
 import code.name.monkey.retromusic.databinding.BottomSheetScanMusicBinding
 import code.name.monkey.retromusic.extensions.accentColor

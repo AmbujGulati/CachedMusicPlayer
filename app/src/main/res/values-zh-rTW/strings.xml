@@ -447,7 +447,7 @@
     <string name="restored_previous_purchases">已復原先前購買。</string>
     <string name="restoring_purchase">正在復原購買…</string>
     <string name="billing_error">與 Google Play 結帳系統通訊時發生錯誤</string>
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">Cached</string>
     <string name="retro_music_pro">Retro Music Pro</string>
     <string name="ringtone_summary">應用程式需要取得權限以存取您的裝置設定，並將歌曲設為鈴聲</string>
     <string name="ringtone_title">鈴聲 (可選)</string>

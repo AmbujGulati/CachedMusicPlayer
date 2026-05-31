@@ -126,4 +126,31 @@
     <fragment
         android:id="@+id/lyrics_fragment"
         android:name="code.name.monkey.retromusic.fragments.lyrics.LyricsFragment" />
+    <fragment
+        android:id="@+id/action_spotify"
+        android:name="code.name.monkey.retromusic.spotify.ui.SpotifyPlaylistsFragment"
+        android:label="OnFile"
+        tools:layout="@layout/fragment_spotify_playlists">
+
+        <action
+            android:id="@+id/actionSpotifyToPlaylistDetail"
+            app:destination="@id/spotifyPlaylistDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/spotifyPlaylistDetailFragment"
+        android:name="code.name.monkey.retromusic.spotify.ui.SpotifyPlaylistDetailFragment"
+        android:label="Playlist"
+        tools:layout="@layout/fragment_spotify_playlist_detail">
+
+        <argument
+            android:name="playlistId"
+            app:argType="string" />
+        <argument
+            android:name="playlistName"
+            app:argType="string" />
+
+    </fragment>
+
 </navigation>

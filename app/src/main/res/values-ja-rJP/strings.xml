@@ -448,7 +448,7 @@
     <string name="restored_previous_purchases">購入を復元しました</string>
     <string name="restoring_purchase">購入を復元しています...</string>
     <string name="billing_error">Google Play 請求サービスとの通信中にエラーが発生しました</string>
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">Cached</string>
     <string name="retro_music_pro">Retro Music Pro</string>
     <string name="ringtone_summary">音楽を着信音に設定するには、端末の設定にアクセスする権限が必要です</string>
     <string name="ringtone_title">着信音（オプション）</string>

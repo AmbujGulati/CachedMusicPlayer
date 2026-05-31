@@ -25,7 +25,7 @@ data class CategoryInfo(
     var visible: Boolean
 ) : Parcelable {
 
-    enum class Category(
+        enum class Category(
         val id: Int,
         @StringRes val stringRes: Int,
         @DrawableRes val icon: Int
@@ -37,6 +37,8 @@ data class CategoryInfo(
         Playlists(R.id.action_playlist, R.string.playlists, R.drawable.asld_playlist),
         Genres(R.id.action_genre, R.string.genres, R.drawable.asld_guitar),
         Folder(R.id.action_folder, R.string.folders, R.drawable.asld_folder),
-        Search(R.id.action_search, R.string.action_search, R.drawable.ic_search);
+        Search(R.id.action_search, R.string.action_search, R.drawable.ic_search),
+        Spotify(R.id.action_spotify, R.string.onfile_tab, R.drawable.ic_spotify);
     }
+
 }

@@ -471,7 +471,7 @@
 
     <string name="restoring_purchase">Restoring purchase…</string>
 
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">Cached</string>
     <string name="retro_music_pro">Retro Music Pro</string>
 
     <string name="saf_delete_failed">File delete failed: %s</string>

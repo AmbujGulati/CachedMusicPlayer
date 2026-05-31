@@ -449,7 +449,7 @@
     <string name="restored_previous_purchases">Frühere Käufe wiederhergestellt.</string>
     <string name="restoring_purchase">Kauf wird wiederhergestellt…</string>
     <string name="billing_error">Bei der Kommunikation mit der Google Play Abrechnung ist ein Fehler aufgetreten</string>
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">Cached</string>
     <string name="retro_music_pro">Retro Music Pro</string>
     <string name="ringtone_summary">Die App benötigt die Berechtigung zum Ändern von Systemeinstellungen, um Musik als Klingelton festlegen zu können</string>
     <string name="ringtone_title">Klingelton (optional)</string>

@@ -20,6 +20,7 @@ import org.koin.android.ext.koin.androidContext
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.bind
 import org.koin.dsl.module
+import code.name.monkey.retromusic.spotify.db.SpotifyDatabase
 
 val networkModule = module {
 
@@ -44,6 +45,8 @@ private val roomModule = module {
             .addMigrations(MIGRATION_23_24)
             .build()
     }
+    single { SpotifyDatabase.getInstance(androidContext()) }
+    single { get<SpotifyDatabase>().spotifyDao() }
 
     factory {
         get<RetroDatabase>().playlistDao()
